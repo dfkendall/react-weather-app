@@ -78,7 +78,7 @@ const Weather = () => {
         }
     }
     return (
-        <div className='container'>
+        <div className='container wrapper'>
             <div className="top-bar">
                 <input className="city-input" placeholder="search"></input>
                 <div className="search-icon" onClick={() => {search()}}>
