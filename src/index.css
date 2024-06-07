@@ -105,6 +105,43 @@ html {
   font-weight: 400;
 }
 
+@media (max-width: 600px) {
+  .weather-message {
+    font-size: 25px !important;
+  } 
+  .city-input {
+    max-width: 200px;
+  }
+  .search-icon-image {
+    width: 30px;
+    height: 30px;
+  }
+  .weather-condition {
+    font-size: 35px;
+  }
+
+  .weather-image-asset {
+    width: 150px;
+  }
+
+  .weather-temp {
+    font-size: 35px;
+    margin-top: 30px;
+  }
+  .weather-location {
+    font-size: 35px;
+  }
+  .humidity-percent {
+    font-size: 20px;
+  }
+  .wind-rate {
+    font-size: 20px;
+  }
+  .text {
+    font-size: 20px;
+  }
+}
+
 .data-container {
   margin-top: 50px;
   color: white;
