@@ -82,7 +82,7 @@ const Weather = () => {
             <div className="top-bar">
                 <input className="city-input" placeholder="search"></input>
                 <div className="search-icon" onClick={() => {search()}}>
-                <img src={search_icon} alt="" />
+                <img src={search_icon} alt="" className="search-icon-image" />
                 </div>
             </div>
             {isLoading ? <Loader/> :<div>
@@ -90,7 +90,7 @@ const Weather = () => {
             <div>
                 <div className="weather-condition">{weatherData.weather[0].main}</div>
                 <div className="weather-image">
-                    <img src={weatherData.image} alt="" />
+                    <img src={weatherData.image} alt="" class="weather-image-asset"/>
                 </div>
                 <div className="weather-temp">{Math.round(weatherData.main.temp)}°F</div>
                 <div className="weather-location">{weatherData.name}</div>
